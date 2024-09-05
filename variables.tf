@@ -18,9 +18,9 @@ variable "security_group" {
     default     = "my-jenkins-sg24" 
 }
 
-variable "sonar_security_group"{
-    description = "Name of sonar security group"
-    default = "sonar-sg-24"
+variable "ansible_security_group"{
+    description = "Name of ansible security group"
+    default = "ansible-sg-24"
 }
 
 variable "tag_name" { 
