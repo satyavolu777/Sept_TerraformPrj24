@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "devops-aug-state-bucket" {
+resource "aws_s3_bucket" "state-bucket" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
