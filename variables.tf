@@ -18,9 +18,10 @@ variable "security_group" {
     default     = "my-jenkins-sg24" 
 }
 
-variable "sonar-sg-24"{
+variable "sonar_security_group"{
     description = "Name of sonar security group"
-    default = "sonar-sg"
+    default = "sonar-sg-24"
+}
 
 variable "tag_name" { 
     description = "Tag Name of for Ec2 instance" 
